@@ -17,8 +17,8 @@ WORKDIR /workspace
 RUN mkdir backend frontend
 
 # Clone repos
-RUN git clone https://github.com/ArtemOganesyan/smstests.git backend \
- && git clone https://github.com/ArtemOganesyan/coreui-free.git frontend
+RUN git clone https://github.com/b0mjur/smstests.git backend \
+ && git clone https://github.com/b0mjur/coreui-free.git frontend
 
 # Set up frontend
 WORKDIR /workspace/frontend
